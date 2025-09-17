@@ -12,8 +12,8 @@ Building on the existing foundation of the `ct` package—which already provides
 3. **Comprehensive tutorials and documentation:** create detailed, workflow-based tutorials covering data transformation, image/video processing, density and abundance estimation, interpretation of results, etc. These resources will be accessible to users of all skill levels and will promote reproducibility and best practices.
 
 ### Minimum Viable Product
-
 The MVP will consist of:  
+
 *  A basic Shiny-based app enabling users to upload images, run detection, and export annotated datasets.  
 *  At least one end-to-end tutorial demonstrating the workflow from raw data to analysis-ready output.
 
