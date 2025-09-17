@@ -15,20 +15,21 @@ The project is currently underway and has received support from the R Consortium
 ## Other aspects
 The project is released under MIT license. All code is hosted on [GitHub](https://github.com/stangandaho/ct). 
 Project progress and results will be publicized through:  
+
 - Delivery blog posts on the R Consortium blog.  
-- Social media (at this time on LindedIn) updates and ISC meetings.  
-Tutorials and vignettes will be published on the package [website](https://stangandaho.github.io/ct/index.html) under **Articles** section.
+- Social media (at this time on LinkedIn) updates and ISC meetings.  
+Tutorials and vignettes will be published on the package [website](https://stangandaho.github.io/ct/index.html) under Articles section.
 
 ## Budget & funding plan
 The project will progress through three well-defined milestones, each with dedicated budget allocations.  
 
-Milestone 1: Core Integration Layer (Completed)
-This milestone established the foundation of the project by developing standardized interfaces to connect ct with camtraptor, camtrapDensity, and Distance. These integrations enable smooth data exchange between packages and provide users with a consistent workflow. Key functions for common data transformation, analysis, and visualization were implemented, making ct a practical and user-friendly tool for camera trap data processing (e.g currently in use by [Gilles Adounke](https://doctorat.univ-toulouse.fr/as/ed/cv.pl?mat=172968&site=EDT) for his PhD program).
+*Milestone 1: Core Integration Layer (Completed)*  
+This milestone established the foundation of the project by developing standardized interfaces to connect `ct` with other packages. These integration enable smooth data exchange between packages and provide users with a consistent workflow. Key functions for common data transformation, analysis, and visualization were implemented, making `ct` a practical and user-friendly tool for camera trap data processing (e.g currently in use by [Gilles Adounke](https://doctorat.univ-toulouse.fr/as/ed/cv.pl?mat=172968&site=EDT) for his PhD program).
 
-Milestone 2 ($4,000): Automated Annotation  
+*Milestone 2 ($4,000): Automated Annotation*  
 It will deliver a lightweight interface for deep learning–assisted animal detection, streamlined tools for metadata extraction and editing, and utilities for efficient dataset construction.
 
-Milestone 3 ($4,000): Documentation, Testing, and CRAN Submission  
+*Milestone 3 ($4,000): Documentation, Testing, and CRAN Submission*    
 The final milestone will ensure ct is well-documented, tested, and accessible to the R community. It includes developing comprehensive documentation with tutorials, and submitting the finalized version to CRAN for public release in compliance with R packaging standards.
 
 

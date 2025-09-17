@@ -1,9 +1,9 @@
 # The proposal
-During the first three months, we will focus on expanding the `ct` package by integrating deep learning–assisted outlier animal detection for both images and videos, leveraging existing computer vision models such as MegaDetector. To improve accessibility, we will develop a user-friendly GUI that enables users to automate animal identification, extract relevant metadata, and generate well-structured datasets for analysis. The interface will allow users to customize and add tags such as animal sex, life stage, and other attributes, streamlining the process of organizing and preparing data for downstream research.  
-In the final three months, we will prioritize testing and and creating detailed tutorials covering common workflows, including data transformation, image and video processing, density and abundance estimation, and result interpretation. These resources will be designed to reduce the learning curve and facilitate adoption across diverse research groups. By providing clear, step-by-step guides and practical examples, we aim to empower users to fully utilize the package’s capabilities and accelerate its integration into ecological research and conservation workflows.
+During the first three months, we will focus on expanding the `ct` package by integrating deep learning–assisted outlier animal detection for both images and videos, leveraging existing computer vision models such as [MegaDetector](https://microsoft.github.io/CameraTraps/model_zoo/megadetector/). To improve accessibility, we will develop a user-friendly GUI that enables users to automate animal identification, extract relevant metadata, and generate well-structured datasets for analysis. The interface will allow users to customize and add tags such as animal sex, life stage, and other attributes, streamlining the process of organizing and preparing data for downstream research.  
+In the final three months, we will prioritize testing and and creating detailed tutorials covering common workflows, including data transformation, image and video processing, density and abundance estimation, and result interpretation. These resources will be designed to reduce the learning curve and facilitate adoption across diverse research groups.
 
 ## Overview
-The `ct` package addresses the critical need for unified, reproducible, and accessible camera trap data workflows in R. By integrating deep learning–assisted animal detection, a user-friendly graphical interface, and comprehensive tutorials, this project will bridge the gap between advanced analytical tools and practical field applications. The proposed enhancements will empower ecologists, conservationists, and citizen scientists to efficiently process, annotate, and analyze camera trap data, fostering collaboration and data sharing across the R community.
+The `ct` package addresses the critical need for unified, reproducible, and accessible camera trap data workflows in R. By integrating deep learning–assisted animal detection, a user-friendly graphical interface, and comprehensive tutorials, this project will bridge the gap between advanced analytical tools and practical field applications. The proposed enhancements will empower ecologists, conservationists, and citizen scientists to efficiently process, annotate, and analyze camera trap data with flexibility.
 
 ## Detail
 Building on the existing foundation of the `ct` package—which already provides robust tools for data cleaning, validation, visualization, summary analysis, and density estimation—this project will focus on two main deliverables:
@@ -19,7 +19,7 @@ The MVP will consist of:
 
 
 ### Architecture
-The high-level architecture of the look like the diagram below. 
+The high-level architecture of ct package look like the diagram below. 
 Orange boxes represent the core components of the project proposal.
 
 
