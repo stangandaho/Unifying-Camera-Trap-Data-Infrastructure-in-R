@@ -22,7 +22,7 @@ The MVP will consist of:
 The high-level architecture of the look like the diagram below. 
 Orange boxes represent the core components of the project proposal.
 
-[![](../ct_R_package.png){fig-alt="ct R package high-level architecture"}](https://stangandaho.github.io/ct/reference/index.html)
+[![](images/ct_R_package.png){fig-alt="ct R package high-level architecture"}](https://stangandaho.github.io/ct/reference/index.html)
 
 ### Assumptions
 We assume that we are in good health during the execution period. Otherwise technically, there is no way to make the project invalid.
