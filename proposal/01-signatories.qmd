@@ -1,21 +1,11 @@
 # Signatories
-<!--
-This section provides the ISC with a view of the support received from
-the community for a proposal. Acceptance isn't predicated on
-popularity but community acceptance is important. Willingness to
-accept outside input is also a good marker for project delivery.
-
-An optional section would be for R-Core signatories where changes to R
-are proposed.
--->
+This proposal is supported by a growing community of researchers and practitioners committed to improving camera trap data workflows in R. Letters of support have been received from the Zoological Society of London, the Laboratory of Applied Ecology at the University of Abomey-Calavi.
 
 ## Project team
-<!--
-Who are the people responsible for actually delivering the project if
-the proposal gets accepted and are already signed up and rearing to
-go? Briefly describe all participants and the skills they will bring
-to the project.
--->
+The ct project will be led by me, ecological data scientist at the Laboratory of Applied Ecology (University of Abomey-Calavi) with extensive experience in ecological data management, statistical modeling, and open-source software development. I'm the creator and maintainer of [nimo](https://nimo.naben.org/), and [redlist](https://stangandaho.github.io/redlist/index.html) (now on CRAN), as well as software tools for machine learning and ecological monitoring such as [Declas](https://github.com/stangandaho/declas). My expertise in R package development, computer vision, and reproducible research workflows ensures that the project will be delivered to high technical and usability standards.
+
+Prof. Marcus Rowcliffe (Zoological Society of London) and Damiano Oldoni (Research Institute for Nature and Forest, Belgium) will remain members of the project team, providing technical input and testing support. Their continued involvement guarantees that the package stays relevant to the broader camera trap data community.
+
 
 ## Contributors
 <!--

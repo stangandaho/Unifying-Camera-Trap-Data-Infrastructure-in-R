@@ -1,57 +1,34 @@
 # Project plan
 
 ## Start-up phase
-<!--
-Covering the planning phase, this section should provide a relatively
-detailed plan of how work will start on the project. This section is
-important because projects need to get up and running quickly.
-
-
- - [ ] Setting up collaboration platform inc. code for contributors etc.
- - [ ] Licence decisions
- - [ ] Reporting framework
--->
-
+The project is currently underway and has received support from the R Consortium for the first grant cycle (25-ISC-1-04). The project's GitHub repository can be found [here](https://github.com/stangandaho/ct)
 
 ## Technical delivery
-<!--
-Covering the actual delivery of the project this section should
-provide at least a high-level description of the implementation.
+- *Month 1:* Integrate MegaDetector (v6) with the ct package
+- *Month 2:* Build a prototype Shiny GUI for image/video upload, detection, and annotation
+- *Month 3:* Expand GUI to support metadata editing, tagging, and export of annotated datasets.
+- *Month 4:* Conduct extensive unit testing with real-world datasets for most package functions.
+- *Month 5:* Develop comprehensive tutorials/vignettes covering end-to-end workflows.
+- *Month 6:* Finalize documentation, prepare dissemination materials, and submit delivery blog post.
 
-Including target dates is really important as you need to be committed
-and the ISC need to have a means of tracking delivery
--->
 
 ## Other aspects
-
-<!--
-How will you ensure that your work is available to the widest number
-of people? Please specify the open-source or creative commons license(s)
-you will use, how you will host your code so that others can contribute,
-and how you will publicize your work. We encourage you to plan content
-to be shared quarterly on the R Consortium blog.
-
- - [ ] Announcement post
- - [ ] Delivery blog post
- - [ ] Social media
- - [ ] UseR!
- - [ ] ISC meetings
--->
+The project is released under MIT license. All code is hosted on [GitHub](https://github.com/stangandaho/ct). 
+Project progress and results will be publicized through:  
+- Delivery blog posts on the R Consortium blog.  
+- Social media (at this time on LindedIn) updates and ISC meetings.  
+Tutorials and vignettes will be published on the package [website](https://stangandaho.github.io/ct/index.html) under **Articles** section.
 
 ## Budget & funding plan
+The project will progress through three well-defined milestones, each with dedicated budget allocations.  
 
-<!--
-Outline the milestones for development and how much funding will be
-required for each stage (as payments will be tied to project milestone
-completion). Each milestone should specify the work to be done and the
-expected outcomes, providing enough detail for the ISC to understand
-the scope of the project work and assess the likelihood of success.
+Milestone 1: Core Integration Layer (Completed)
+This milestone established the foundation of the project by developing standardized interfaces to connect ct with camtraptor, camtrapDensity, and Distance. These integrations enable smooth data exchange between packages and provide users with a consistent workflow. Key functions for common data transformation, analysis, and visualization were implemented, making ct a practical and user-friendly tool for camera trap data processing (e.g currently in use by [Gilles Adounke](https://doctorat.univ-toulouse.fr/as/ed/cv.pl?mat=172968&site=EDT) for his PhD program).
 
-We expect that most of the budget will be allocated
-for labor costs. We do not cover indirect costs. The ISC grants cannot
-cover such things as travel, lodging, food, journal publication fees,
-or personal hardware. Cloud services may be covered if they are specific
-to the project and the project period. The ISC reserves the right to vet
-how funds are used for each project separately. If in doubt, please reach
-out to us.
--->
+Milestone 2 ($4,000): Automated Annotation  
+It will deliver a lightweight interface for deep learning–assisted animal detection, streamlined tools for metadata extraction and editing, and utilities for efficient dataset construction.
+
+Milestone 3 ($4,000): Documentation, Testing, and CRAN Submission  
+The final milestone will ensure ct is well-documented, tested, and accessible to the R community. It includes developing comprehensive documentation with tutorials, and submitting the finalized version to CRAN for public release in compliance with R packaging standards.
+
+

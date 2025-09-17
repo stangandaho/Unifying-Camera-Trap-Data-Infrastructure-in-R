@@ -1,6 +1,11 @@
 # Executive Summary
 
-<!--
-This section provides a condensed view of the entire proposal, one page long.
-It should be a comprehensive high-level overview that captures the essence of the proposal, including its goals, methods, expected outcomes, deliverables, and budget.
--->
+The [ct](https://stangandaho.github.io/ct/index.html) project (initially maimer) addresses a critical gap in ecological research by unifying the fragmented camera trap data ecosystem in R. Camera traps produce vast datasets that are central to wildlife monitoring and conservation, yet researchers must navigate multiple disconnected tools and standards, creating inefficiency and barriers to adoption. The goal of ct is to provide an integrated, tidyverse-friendly workflow that streamlines data import, cleaning, visualization, and analysis, making advanced methods more accessible to ecologists and conservation practitioners.
+
+With support from the R Consortium, we have successfully completed Milestone 1, which delivered a core integration layer connecting ct to key packages like `activity`, `camtraptor`, `Distance`, and `camtrapDensity`, while ensuring compatibility with the Camera Trap Data Package (Camtrap DP) standard. This work laid the foundation for reproducible workflows for population density estimation and attracted significant interest from the community, including a well-attended webinar with 172 participants from across Africa and beyond.
+
+This proposal seeks support for the remaining two milestones:  
+* Milestone 2: deliver deep learning–based animal detection, streamlined metadata tools, and utilities for building analysis-ready datasets from images/videos.  
+* Milestone 3: finalize documentation and tutorials, complete user testing, and submit ct to CRAN to ensure easy installation and long-term accessibility.
+
+The total requested budget is $8,000, supporting six months of part-time development and funding documentation and user testing efforts.

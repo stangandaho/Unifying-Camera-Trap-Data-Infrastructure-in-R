@@ -1,22 +1,10 @@
 # Success
-<!--
-Projects should have a definition of done that is measurable, and a
-thorough understanding going in of what the risks are to delivery
--->
 
 ## Definition of done
-<!--
-What does success look like?
--->
+With Milestone 1 completed and the core integration layer delivered, success for the remaining milestones means delivering automated media annotation, an interactive Shiny interface, comprehensive documentation, and a CRAN-ready package.
 
 ## Measuring success
-<!--
-How will we know when success is achieved, what markers can we use
-along the way
--->
+Success will be measured by passing tests for all new functions, successful beta testing with partner institutions, positive user feedback, and public availability of the package on CRAN with adoption signals such as downloads and GitHub activity.
 
 ## Future work
-<!--
-How could this be extended / developed in the future by yourself
-and/or the community in general?
--->
+Future work will focus on maintaining the package, adding support for additional models (species classification), and encouraging community-driven analytical extensions to broaden its impact.

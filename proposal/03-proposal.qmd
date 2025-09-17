@@ -1,50 +1,32 @@
 # The proposal
-<!--
-How are you going to solve the problem? Include the concrete actions you
-will take and an estimated timeline. What are likely failure modes and
-how will you recover from them?
-
-This is where the proposal should be outlined.
--->
+During the first three months, we will focus on expanding the `ct` package by integrating deep learning–assisted outlier animal detection for both images and videos, leveraging existing computer vision models such as MegaDetector. To improve accessibility, we will develop a user-friendly GUI that enables users to automate animal identification, extract relevant metadata, and generate well-structured datasets for analysis. The interface will allow users to customize and add tags such as animal sex, life stage, and other attributes, streamlining the process of organizing and preparing data for downstream research.  
+In the final three months, we will prioritize testing and and creating detailed tutorials covering common workflows, including data transformation, image and video processing, density and abundance estimation, and result interpretation. These resources will be designed to reduce the learning curve and facilitate adoption across diverse research groups. By providing clear, step-by-step guides and practical examples, we aim to empower users to fully utilize the package’s capabilities and accelerate its integration into ecological research and conservation workflows.
 
 ## Overview
-<!--
-At a high-level address what your proposal is and how it will address
-the problem identified. Highlight any benefits to the R Community that
-follow from solving the problem. This should be your most compelling
-section.
-
-Include concrete actions you will take and estimated timeline.
--->
+The `ct` package addresses the critical need for unified, reproducible, and accessible camera trap data workflows in R. By integrating deep learning–assisted animal detection, a user-friendly graphical interface, and comprehensive tutorials, this project will bridge the gap between advanced analytical tools and practical field applications. The proposed enhancements will empower ecologists, conservationists, and citizen scientists to efficiently process, annotate, and analyze camera trap data, fostering collaboration and data sharing across the R community.
 
 ## Detail
-<!--
-Go into more detail about the specifics of the project and how it delivers
-against the problem.
+Building on the existing foundation of the `ct` package—which already provides robust tools for data cleaning, validation, visualization, summary analysis, and density estimation—this project will focus on two main deliverables:
 
-Depending on project type the detail section should include:
--->
+1. **Automated annotation:** develop and integrate a deep learning-assisted pipeline within a GUI to automate animal identification in images and videos using [MegaDetector model](https://microsoft.github.io/CameraTraps/model_zoo/megadetector/). The GUI will enable users to upload data, run detection models, edit results, add attributes/tags (e.g., species, sex, life stage).
+3. **Comprehensive tutorials and documentation:** create detailed, workflow-based tutorials covering data transformation, image/video processing, density and abundance estimation, interpretation of results, etc. These resources will be accessible to users of all skill levels and will promote reproducibility and best practices.
 
 ### Minimum Viable Product
 
-<!--
-What is the smallest thing you can build that delivers value to your users?
--->
+The MVP will consist of:  
+*  A basic Shiny-based app enabling users to upload images, run detection, and export annotated datasets.  
+*  At least one end-to-end tutorial demonstrating the workflow from raw data to analysis-ready output.
+
 
 ### Architecture
+The high-level architecture of the look like the diagram below. 
+Orange boxes represent the core components of the project proposal.
 
-<!--
-What does the high-level architecture look like?
--->
+[![](../ct_R_package.png){fig-alt="ct R package high-level architecture"}](https://stangandaho.github.io/ct/reference/index.html)
 
 ### Assumptions
-
-<!--
-What assumptions are you making that, if proven false, would invalidate the project?
--->
+We assume that we are in good health during the execution period. Otherwise technically, there is no way to make the project invalid.
 
 ### External dependencies
-
-<!--
-What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
--->
+- [MegaDetector](https://microsoft.github.io/CameraTraps/model_zoo/megadetector/) pre-trained model model.
+- [Exiftool](https://exiftool.org/)

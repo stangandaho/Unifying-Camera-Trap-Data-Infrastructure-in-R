@@ -3,22 +3,4 @@ bibliography: references.bib
 ---
 
 # The Problem
-
-```{=html}
-<!--
-Outlining the issue / weak point / problem to be solved by this
-proposal. This should be a compelling section that sets the reader up
-for the next section - the proposed solution!
-
-It is important to cover:
-
- - [ ] What the problem is
- - [ ] Who it affects
- - [ ] Why is it a problem
- - [ ] What will solving the problem enable (why should it be solved)
- - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
- - [ ] If proposing changes to R itself: letter of support from R Core member
--->
-```
-
-An example in-text citation [@wickham2016].
+Camera traps are central to modern ecological research, conservation monitoring, and wildlife management, generating vast datasets that must be processed, summarized, and analyzed efficiently. Processing and analyzing camera trap data in R often requires multiple steps, from cleaning raw data to statistical modeling and visualization. However, the current R ecosystem for camera trap data remains fragmented. Researchers often combine multiple packages such as *camtrapR* [@camtrapR] for data management, *activity* for diel activity patterns [@activity], *unmarked* or *secr* for occupancy and capture–recapture modeling [@unmarked1; @unmarked2; @secr]. New methodologies, such as deep learning-assisted species identification, are often siloed in standalone tools *CameraTrapDetectoR* [@CameraTrapDetectoR], limiting their adoption directly in R. The absence of a cohesive pipeline hinders innovation. By integrating existing tools with novel approaches—such as those under development in the *ct* package, we can create an "all-in-one" platform that streamlines workflows, reduces redundancy, and democratizes access to advanced analytical methods. The package aims to provide a modern, tidyverse-friendly workflow for camera trap data analysis. Using tidy evaluation principles, it enables users to efficiently manipulate and transform datasets. Additionally, it integrates seamlessly with ggplot2 [@ggplot2], allowing users to generate highly customizable visualizations. This project will directly benefit ecologists, conservationists, and educators who rely on R for reproducible research but currently face unnecessary complexity in managing camera trap data.  
