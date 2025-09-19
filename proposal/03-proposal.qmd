@@ -1,21 +1,21 @@
 # The proposal
-During the first three months, we will focus on expanding the `ct` package by integrating deep learning–assisted outlier animal detection for both images and videos, leveraging existing computer vision models such as [MegaDetector](https://microsoft.github.io/CameraTraps/model_zoo/megadetector/). To improve accessibility, we will develop a user-friendly GUI that enables users to automate animal identification, extract relevant metadata, and generate well-structured datasets for analysis. The interface will allow users to customize and add tags such as animal sex, life stage, and other attributes, streamlining the process of organizing and preparing data for downstream research.  
-In the final three months, we will prioritize testing and and creating detailed tutorials covering common workflows, including data transformation, image and video processing, density and abundance estimation, and result interpretation. These resources will be designed to reduce the learning curve and facilitate adoption across diverse research groups.
+During the first three months, we will focus on expanding the `ct` package by integrating deep learning–assisted outlier animal detection for both images and videos, leveraging existing computer vision models such as [MegaDetector](https://microsoft.github.io/CameraTraps/megadetector/). To improve accessibility, we will develop a user-friendly GUI that enables users to automate animal identification, extract relevant metadata, and generate well-structured datasets for analysis. The interface will allow users to customize and add tags such as animal sex, life stage, and other attributes, streamlining the process of organizing and preparing data for downstream research.  
+In the final three months, we will prioritize testing and and creating detailed vignettes and articles covering common workflows, including data transformation, image and video processing, density and abundance estimation, and result interpretation. These resources will be designed to reduce the learning curve and facilitate adoption across diverse research groups.
 
 ## Overview
-The `ct` package addresses the critical need for unified, reproducible, and accessible camera trap data workflows in R. By integrating deep learning–assisted animal detection, a user-friendly graphical interface, and comprehensive tutorials, this project will bridge the gap between advanced analytical tools and practical field applications. The proposed enhancements will empower ecologists, conservationists, and citizen scientists to efficiently process, annotate, and analyze camera trap data with flexibility.
+The `ct` package addresses the critical need for unified, reproducible, and accessible camera trap data workflows in R. By integrating deep learning–assisted animal detection, a user-friendly graphical interface, and comprehensive documentation, this project will bridge the gap between advanced analytical tools and practical field applications. The proposed enhancements will empower ecologists, conservationists, and citizen scientists to efficiently process, annotate, and analyze camera trap data with flexibility.
 
 ## Detail
 Building on the existing foundation of the `ct` package—which already provides robust tools for data cleaning, validation, visualization, summary analysis, and density estimation—this project will focus on two main deliverables:
 
 1. **Automated annotation:** develop and integrate a deep learning-assisted pipeline within a GUI to automate animal identification in images and videos using [MegaDetector model](https://microsoft.github.io/CameraTraps/model_zoo/megadetector/). The GUI will enable users to upload data, run detection models, edit results, add attributes/tags (e.g., species, sex, life stage).
-3. **Comprehensive tutorials and documentation:** create detailed, workflow-based tutorials covering data transformation, image/video processing, density and abundance estimation, interpretation of results, etc. These resources will be accessible to users of all skill levels and will promote reproducibility and best practices.
+3. **Comprehensive vignette and article:** create detailed, workflow-based documentation covering data transformation, image/video processing, density and abundance estimation, interpretation of results, etc. These resources will be accessible to users of all skill levels and will promote reproducibility and best practices.
 
 ### Minimum Viable Product
 The MVP will consist of:  
 
-*  A basic Shiny-based app enabling users to upload images, run detection, and export annotated datasets.  
-*  At least one end-to-end tutorial demonstrating the workflow from raw data to analysis-ready output.
+*  A basic Shiny-based app enabling users to upload images, run detection, and export annotated datasets from the package.  
+*  At least one end-to-end article demonstrating the workflow from raw data to analysis-ready output.
 
 
 ### Architecture

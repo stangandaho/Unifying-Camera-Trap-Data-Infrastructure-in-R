@@ -1,12 +1,12 @@
 # Executive Summary
 
-The [ct](https://stangandaho.github.io/ct/index.html) project (initially maimer) addresses a critical gap in ecological research by unifying the fragmented camera trap data ecosystem in R. Camera traps produce vast datasets that are central to wildlife monitoring and conservation, yet researchers must navigate multiple disconnected tools and standards, creating inefficiency and barriers to adoption. The goal of ct is to provide an integrated, tidyverse-friendly workflow that streamlines data import, cleaning, visualization, and analysis, making advanced methods more accessible to ecologists and conservation practitioners.
+The [ct](https://stangandaho.github.io/ct/index.html) project (initially maimer) addresses a critical gap in ecological research by unifying the fragmented camera trap data ecosystem in R. Camera traps produce vast datasets that are central to wildlife monitoring and conservation, yet researchers must navigate multiple disconnected tools and standards, creating inefficiency and barriers to adoption. The goal of `ct` package is to provide an integrated, tidyverse-friendly workflow that streamlines data import, cleaning, visualization, and analysis, making advanced methods more accessible to ecologists and conservation practitioners.
 
-With support from the R Consortium, we have successfully completed Milestone 1, which delivered a core integration layer connecting ct to key packages like `activity`, `camtraptor`, `Distance`, and `camtrapDensity`, while ensuring compatibility with the Camera Trap Data Package (Camtrap DP) standard. This work laid the foundation for reproducible workflows for data processing, analysis, modeling, and attracted significant interest from the community, including a well-attended [webinar](https://naben.org/evenement/estimation-de-la-densite-de-population-avec-camera-trap/) (recorded [here](https://youtu.be/QoNXDUGiLSk?t=736)) with 172 attendees.
+With support from the R Consortium, we have successfully completed Milestone 1, which delivered a core integration layer connecting `ct` to key packages like `activity`, `camtraptor`, `Distance`, and `camtrapDensity`, while ensuring compatibility with the Camera Trap Data Package (Camtrap DP) standard. This work laid the foundation for reproducible workflows for data processing, analysis, modeling, and attracted significant interest from the community, including a well-attended [webinar](https://naben.org/evenement/estimation-de-la-densite-de-population-avec-camera-trap/) (recording [here](https://youtu.be/QoNXDUGiLSk?t=736)) with 172 attendees.
 
 This proposal seeks support for the remaining two milestones:  
 
-* Milestone 2: deliver deep learning–based animal detection, streamlined metadata tools, and utilities for building analysis-ready datasets from images/videos.  
-* Milestone 3: finalize documentation and tutorials, complete user testing, and submit `ct` to CRAN.
+* *Milestone 2:* deliver deep learning–based animal detection, streamlined metadata tools, and utilities for building analysis-ready datasets from images/videos.  
+* *Milestone 3:* create vignettes, articles, complete user testing, and consider submitting the package to rOpenSci for peer review before sending it to CRAN.
 
-The total requested budget is $8,000, supporting six months of part-time development and funding documentation and user testing efforts.
+The total requested budget is $8,000, supporting six months of part-time development.

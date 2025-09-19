@@ -8,15 +8,12 @@ Prof. Marcus Rowcliffe (Zoological Society of London) and Damiano Oldoni (Resear
 
 
 ## Contributors
+[Dr. Sylvestre Djagoun](https://scholar.google.com/citations?hl=en&user=VE0PwzAAAAAJ&view_op=list_works&sortby=pubdate)
 <!--
 Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
 
 ## Consulted
-<!--
-Who has been given the opportunity to provide feedback on the
-proposal? This should include any R Consortium & ISC members who the
-proposal has been discussed with.
--->
+[Yanina Bellini Saibene](https://www.linkedin.com/in/yabellini/)
 

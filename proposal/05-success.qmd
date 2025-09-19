@@ -5,14 +5,16 @@ thorough understanding going in of what the risks are to delivery
 -->
 
 ## Definition of done
+
 With Milestone 1 completed and the core integration layer delivered, success for the remaining milestones means delivering automated media annotation, an interactive Shiny interface, comprehensive documentation, and a CRAN-ready package.
 
 ## Measuring success
+
 Success will be measured by passing tests for all new functions, successful beta testing with partner institutions, positive user feedback, and public availability of the package on CRAN with adoption signals such as downloads and GitHub activity.
 
 ## Future work
-- Expand support for additional deep learning models and custom model integration.
-- Add advanced features such as species recognition, behavior classification, or semi-automated quality control.
-- Develop cloud-based processing options for large-scale datasets.
-- Foster a community-driven ecosystem for sharing plugins, workflows, and annotated datasets.
-- Collaborate with other R packages and international camera trap data initiatives to enhance interoperability and standards.
+
+- Prepare and submit a peer-reviewed manuscript suitable for publication in Methods in Ecology and Evolution or a similar journal.
+- Collaborate with other R packages and international camera trap data initiatives to enhance interoperability.
+- Expand support for additional deep learning models and custom model integration for species classification.
+- Continue to maintain the package.
